@@ -1,18 +1,17 @@
-var matrix = function generateArrays() {
-    for (var i=0; i<4; i++) {
-        for (var j=0; j<4; j++) {
-            print(0);
-        }
-    }
-}
-generateArrays();
+// IN PRINCIPLE
+// [0,0,0,0,]
+// [0,0,0,0,]
+// [0,0,0,0,]
+// [0,0,0,0,]
 
+// two dimensional array is a matrix i.e. a grid of numbers (columns, rows)
+// to go through every element of the array we use two for loops
+// var i counting the rows
+// var j counting the columns
 
-
-/*var array = function createMatrix(numOfRows, numOfColumns) {
-    for (var i=0; i<numOfRows; i++) {
-        var columns = [];
-        for (var j=0; j<numOfColumns; j++) 
-    }
-
-}*/
+// for (var i = 0; i < cols; i++) {
+//     for (var j = 0; j < rows; j++) {
+//       print(array);
+//     }
+//   }
+// how's step 1 different than the preparation?
